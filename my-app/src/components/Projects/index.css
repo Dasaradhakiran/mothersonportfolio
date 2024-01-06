@@ -1,0 +1,155 @@
+.projects-cont {
+    background-color: #f0efed;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.project-head {
+    font-family: "Roboto";
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #f5d507;
+}
+
+.projects-form-elem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.projects-form-input {
+    width: 380px;
+    outline: none;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 10px;
+}
+
+.projects-form-textarea {
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.project-button-cont {
+    display: flex;
+    justify-content: flex-end;
+    width: 390px;
+    margin-top: 20px;
+}
+.project-button {
+    background-color: #f5d507;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.project-text-head {
+    font-family: "Roboto";
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #f5d507;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.project-ul-elem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.project-error {
+    color: #fa051d;
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .project-head {
+        font-size: 18px;
+    }
+    .projects-form-input {
+        width: 250px;
+        height: 15px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        padding-left: 3px;
+    }
+    .projects-form-elem {
+        margin-left: 20px;
+    }
+    .project-label-text {
+        font-size: 10px;
+    }
+    .projects-form-textarea {
+        width: 250px;
+        height: 80px;
+    }
+    .project-button-cont {
+        width: 250px;
+        margin-top: 10px;
+    }
+    .project-button {
+        font-size: 10px;
+    }
+    .project-error {
+        font-size: 10px;
+    }
+
+    .project-text-head {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .project-head {
+        font-size: 50px;
+    }
+    .projects-form-input {
+        width: 850px;
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+    .projects-form-elem {
+        margin-left: 20px;
+    }
+    .project-label-text {
+        font-size: 35px;
+    }
+    .projects-form-textarea {
+        width: 850px;
+        height: 200px;
+    }
+    .project-button-cont {
+        width: 850px;
+        margin-top: 10px;
+    }
+    .project-button {
+        font-size: 35px;
+    }
+    .project-error {
+        font-size: 30px;
+    }
+
+    .project-text-head {
+        font-size: 90px;
+    }
+}

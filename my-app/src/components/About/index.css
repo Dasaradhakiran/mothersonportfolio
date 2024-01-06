@@ -1,0 +1,123 @@
+.about-cont {
+    background-color: #f0efed;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 70vh;
+}
+
+.about-text-cont {
+    width: 50%;
+}
+
+
+.about-profile-image {
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.about-button-1 {
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    background-color: #f5d507;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+.about-button-2 {
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.about-sub-head {
+    font-family: "Roboto";
+    color: #e4c710;
+}
+.about-head {
+    font-family: "Roboto";
+}
+.about-text {
+    margin-bottom: 30px;
+}
+
+@media  screen and (max-width: 767px) {
+    .about-cont {
+        height: 85vh;
+    }
+    .about-head {
+        font-size: 15px;
+    }
+    .about-sub-head {
+        font-size: 12px;
+    }
+    .about-text {
+        font-size: 10px;
+    }
+    .about-profile-image {
+        height: 50%;
+        width: 30%;
+        margin-top: 30px;
+    }
+    .about-button-1 {
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-button-2 {
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+}
+
+@media  screen and (min-width: 1500px) {
+    .about-cont {
+        height: 85vh;
+    }
+    .about-head {
+        font-size: 40px;
+    }
+    .about-sub-head {
+        font-size: 25px;
+    }
+    .about-text {
+        font-size: 20px;
+    }
+    .about-profile-image {
+        height: 50%;
+        width: 30%;
+        margin-top: 30px;
+    }
+    .about-button-1 {
+        font-size: 18px;
+    }
+    .about-button-2 {
+        font-size: 18px;
+    }
+}

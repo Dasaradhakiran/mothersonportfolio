@@ -1,0 +1,55 @@
+.header-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f5d507;
+}
+
+.header-text {
+    font-family: "Roboto";
+}
+.header-li-elem {
+    list-style-type: none;
+}
+
+.header-link-elem {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #000;
+}
+
+.header-ul-elem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23vw;
+}
+
+
+@media screen and (max-width: 767px) {
+    .header-text {
+        font-size: 13px;
+    }
+    .header-link-elem {
+        font-size: 10px;
+    }
+    .header-ul-elem {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .header-text {
+        font-size: 40px;
+    }
+    .header-link-elem {
+        font-size: 30px;
+    }
+    .header-ul-elem {
+        width: 20vw;
+    }
+}
+
